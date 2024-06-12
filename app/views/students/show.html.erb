@@ -87,7 +87,7 @@
     <select id="course_id_box" name="query_course_id">
       <% Course.order({ :title => :asc }).each do |a_course| %>
         <option value="<%= a_course.id %>">
-          <%= a_course.title %>
+          <%= a_course.title %> 
         </option>
       <% end %>
     </select>
